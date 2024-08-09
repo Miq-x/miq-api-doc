@@ -1,7 +1,7 @@
 # MakeAPI V3
 
 > [!IMPORTANT]
-> このAPIは信頼のもとに親切心で提供されているものです。そのことを忘れないでください。
+> このAPIは信頼のもとに親切心で提供されているものです。そのことを忘れないで( ˙꒳​˙  )ིྀ
 
 > [!CAUTION]
 > 以下の行為を禁止します
@@ -54,3 +54,15 @@ stamp_id       = msg.contentMetadata["STKID"]
 stamp_pkg      = msg.contentMetadata["STKPKGID"]
 param["stamp"] = f"{stamp_pkg}_{stamp_id}"
 ```
+
+
+## 参戦
+"{host}/smash"エンドポイントへのリクエスト
+
+必要なパラメーターは以下
+> [!WARNING]
+> valueは全てstringです
+
+| パラメーター | 説明                          | 必須 |
+|--------------|-------------------------------|------|
+| `key`        | API Key                       | はい  |

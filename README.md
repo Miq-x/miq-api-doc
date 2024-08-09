@@ -2,6 +2,7 @@
 
 > [!IMPORTANT]
 > このAPIは信頼のもとに親切心で提供されているものです。そのことを忘れないで( ˙꒳​˙  )ིྀ
+>
 > 文字化け・バグ・要望は[Issue](https://github.com/MocA-Love/miq-api-doc/issues)どうぞ
 
 > [!CAUTION]

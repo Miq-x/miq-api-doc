@@ -25,6 +25,20 @@ params = {
     "stamp" : "None"
 }
 
+# Line-Emoji Draw
+"""
+params = {
+    "key"   : "MaguRo04",
+    "param" : "make",
+    "name"  : "まぐふぁよ",
+    "text"  : "(emoji)(emoji)(emoji)",
+    "id"    : "0001112222",
+    "mid"   : "u66aa785c06415da8850a19a6e16c223f12345",
+    "meta"  : str([{"productId":"631ebb54f1289d7e58de92e4","E":7,"resourceType":"STATIC","version":1,"sticonId":"030","S":0},{"productId":"631ebb54f1289d7e58de92e4","S":7,"E":14,"sticonId":"031","resourceType":"STATIC","version":1},{"E":21,"S":14,"resourceType":"STATIC","sticonId":"032","productId":"631ebb54f1289d7e58de92e4","version":1}]),
+    "stamp" : "None",
+}
+"""
+
 # Line-Sticker Draw
 """
 params = {
@@ -39,17 +53,17 @@ params = {
 }
 """
 
-# Line-Emoji Draw
+# Line-Combination-Sticker Draw
 """
 params = {
     "key"   : "MaguRo04",
     "param" : "make",
     "name"  : "まぐふぁよ",
-    "text"  : "(emoji)(emoji)(emoji)",
+    "text"  : "",
     "id"    : "0001112222",
     "mid"   : "u66aa785c06415da8850a19a6e16c223f12345",
-    "meta"  : str([{"productId":"631ebb54f1289d7e58de92e4","E":7,"resourceType":"STATIC","version":1,"sticonId":"030","S":0},{"productId":"631ebb54f1289d7e58de92e4","S":7,"E":14,"sticonId":"031","resourceType":"STATIC","version":1},{"E":21,"S":14,"resourceType":"STATIC","sticonId":"032","productId":"631ebb54f1289d7e58de92e4","version":1}]),
-    "stamp" : "None",
+    "meta"  : "None",
+    "stamp" : "28929124-7542-45e8-9d52-8df64de81584",
 }
 """
 

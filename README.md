@@ -40,21 +40,26 @@
 
 ### LINE絵文字の描画について
 Metaデータに含まれるデータをstringに変換してリクエストします
-あくまで例なので適宜変更してください
 
 ```python
 emojiData    = eval(msg.contentMetadata["REPLACE"])
 param["meta"] = str(emojiData["sticon"]["resources"])
 ```
 
-### LINEスタンプの描画について
+### LINEスタンプ(単体)の描画について
 Metaデータに含まれるデータをstringに変換してリクエストします
-あくまで例なので適宜変更してください
 
 ```python
 stamp_id       = msg.contentMetadata["STKID"]
 stamp_pkg      = msg.contentMetadata["STKPKGID"]
 param["stamp"] = f"{stamp_pkg}_{stamp_id}"
+```
+
+### LINEスタンプ(組み合わせ)の描画について
+Metaデータに含まれるデータをstringに変換してリクエストします
+
+```python
+param["stamp"] = msg.contentMetadata["CSSTKID"]
 ```
 
 

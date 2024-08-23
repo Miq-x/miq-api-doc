@@ -62,6 +62,14 @@ Metaデータに含まれるデータをstringに変換してリクエストし�
 param["stamp"] = msg.contentMetadata["CSSTKID"]
 ```
 
+### アニメーションスタンプ/絵文字の描画について
+スタンプや絵文字がアニメーションに対応している場合はレスポンスデータに"gif"が追加で返ってきます。
+
+```python
+with open("res.gif", mode="wb") as f:
+    f.write(base64.b64decode(res["gif"]))
+```
+
 
 ## 参戦
 "{host}/smash"エンドポイントへのリクエスト

@@ -88,6 +88,11 @@ else:
     with open("res.jpg", mode="wb") as f:
         f.write(base64.b64decode(res["image"]))
 
+    # If gif supported
+    if "gif" in res:
+        with open("res.gif", mode="wb") as f:
+            f.write(base64.b64decode(res["gif"]))
+
     print(res["message"])
 
 
